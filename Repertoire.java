@@ -94,8 +94,8 @@ public class Repertoire implements Serializable
 		infoPersonne[1]=prenom;
 		infoPersonne[2]=adresse.getNumRue();
 		infoPersonne[3]=adresse.getRue();
-		infoPersonne[4]=adresse.getCP();
-		infoPersonne[5]=adresse.getVille();
+		infoPersonne[5]=adresse.getCP();
+		infoPersonne[4]=adresse.getVille();
 		infoPersonne[6]=tel;
 		repert.put(id, new Personne(infoPersonne));
 		lesCles.add(id);
