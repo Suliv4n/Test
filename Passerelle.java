@@ -52,8 +52,6 @@ public class Passerelle
 		//String[] info = p.toString().split(";");
 		
 		PreparedStatement sp = connexion.prepareStatement("INSERT INTO CONTACT (nom,prenom,numrue,adresse,ville,cp,tel) values(?,?,?,?,?,?,?)",Statement.RETURN_GENERATED_KEYS);
-		int cpt = 0;
-
 		sp.setString(1,p.getNom());
 		sp.setString(2,p.getPrenom());
 		sp.setString(3,p.getAdresse().getNumRue());
