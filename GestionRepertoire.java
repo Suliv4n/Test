@@ -29,7 +29,6 @@ public class GestionRepertoire
 			e.printStackTrace();
 		}
 
-		System.out.println(" pp");
 
 	}
 }
